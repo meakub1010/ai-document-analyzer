@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Uploaded files
+uploads/
+output/
+*.pdf
+*.jpg
+*.png
+
+# Logs
+*.log
+*.log.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# MyPy / Pyright / Pytest cache
+.mypy_cache/
+.pytest_cache/
+.pyright/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# Pydantic and FastAPI artifacts
+*.sqlite3
+
+# Docker
+*.tar
+__docker_cache__/
+
+# Pycharm
+.idea/
+
