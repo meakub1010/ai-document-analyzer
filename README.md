@@ -21,3 +21,10 @@ pip3 install fastapi uvicorn python-multipart aiofiles
 pip3 install python-dotenv
 
 - help python app to read environment variables
+
+pip3 install uvicorn
+
+-- web server help run your app
+
+Run command: 
+
