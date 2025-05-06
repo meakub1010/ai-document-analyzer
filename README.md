@@ -28,3 +28,9 @@ pip3 install uvicorn
 
 Run command: 
 
+install tesseract OCR
+(venv) meakub@MacBookPro ai-document-analyzer % brew install tesseract
+
+(venv) meakub@MacBookPro ai-document-analyzer % pip3 install pytesseract pdf2image
+
+
