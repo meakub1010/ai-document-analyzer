@@ -34,3 +34,11 @@ install tesseract OCR
 (venv) meakub@MacBookPro ai-document-analyzer % pip3 install pytesseract pdf2image
 
 
+Working with VENV might cause some PATH issues. 
+
+Make sure poppler has been added to the PATH or pass as params like below
+convert_from_path(file_path, poppler_path="/opt/homebrew/bin")
+
+Similarly apply PATH for tesseract like below
+pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
+
