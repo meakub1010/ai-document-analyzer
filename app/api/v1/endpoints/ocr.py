@@ -10,7 +10,7 @@ router = APIRouter()
 @router.post("/ocr/")
 async def perform_ocr(file: UploadFile = File(...)):
     file_id = str(uuid.uuid4)
-    file_path = f"/temp/{file_id}_{file.filename}"
+    file_path = f"temp/{file_id}_{file.filename}"
     logger.info("ocr end point hit")
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
