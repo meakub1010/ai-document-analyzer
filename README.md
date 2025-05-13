@@ -42,3 +42,15 @@ convert_from_path(file_path, poppler_path="/opt/homebrew/bin")
 Similarly apply PATH for tesseract like below
 pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
 
+AI Model Integration
+
+Install hugging face transformers
+
+pip3 install transformers 
+
+Install pytorch
+
+ pip3 install torch --index-url https://download.pytorch.org/whl/cpu
+
+ Since transformers library needs pytorch or TensorFlow as dependency
+
